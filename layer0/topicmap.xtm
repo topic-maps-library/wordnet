@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
+	<topic id="topic0.1501086004481">
+		<subjectIdentifier href="http://www.wandora.org/core/schema-type"/>
+		<instanceOf>
+			<topicRef href="#topic16.1501086004483"/>
+			<topicRef href="#topic2.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Schema type</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic16.1501086004483">
+		<subjectIdentifier href="http://www.wandora.org/core/roleclass"/>
+		<instanceOf>
+			<topicRef href="#topic3.1501086004482"/>
+			<topicRef href="#topic4.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Role class</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic2.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/contenttype"/>
+		<instanceOf>
+			<topicRef href="#topic2.1501086004482"/>
+			<topicRef href="#topic4.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Content type</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic6.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/langindependent"/>
+		<instanceOf>
+			<topicRef href="#topic9.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Language independent</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>Lang.indep.</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic5.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/hidelevel"/>
+		<instanceOf>
+			<topicRef href="#topic7.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Hide level</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic1.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/variant-name-version"/>
+		<instanceOf>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Wandora variant name version</value>
+		</name>
+	</topic>
+	<topic id="topic4.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/role"/>
+		<instanceOf>
+			<topicRef href="#topic2.1501086004482"/>
+			<topicRef href="#topic3.1501086004482"/>
+			<topicRef href="#topic4.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Role</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic3.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/associationtype"/>
+		<instanceOf>
+			<topicRef href="#topic2.1501086004482"/>
+			<topicRef href="#topic3.1501086004482"/>
+			<topicRef href="#topic4.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Association type</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic7.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/occurrencetype"/>
+		<instanceOf>
+			<topicRef href="#topic2.1501086004482"/>
+			<topicRef href="#topic3.1501086004482"/>
+			<topicRef href="#topic4.1501086004482"/>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Occurrence type</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic9.1501086004482">
+		<subjectIdentifier href="http://www.wandora.org/core/language"/>
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm"/>
+		<instanceOf>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Wandora language</value>
+		</name>
+	</topic>
+	<topic id="topic10.1501086004482">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#display"/>
+		<instanceOf>
+			<topicRef href="#topic1.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Scope Display</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>Display name</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic8.1501086004482">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#subclass"/>
+		<instanceOf>
+			<topicRef href="#topic4.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Subclass</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic11.1501086004483">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm#en"/>
+		<instanceOf>
+			<topicRef href="#topic9.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Language EN</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+					<topicRef href="#topic11.1501086004483"/>
+				</scope>
+				<resourceData>English</resourceData>
+			</variant>
+			<variant>
+				<scope>
+					<topicRef href="#topic6.1501086004482"/>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>English</resourceData>
+			</variant>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>EN</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic12.1501086004483">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm#fi"/>
+		<instanceOf>
+			<topicRef href="#topic9.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Language FI</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+					<topicRef href="#topic11.1501086004483"/>
+				</scope>
+				<resourceData>Finnish</resourceData>
+			</variant>
+			<variant>
+				<scope>
+					<topicRef href="#topic6.1501086004482"/>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>Finnish</resourceData>
+			</variant>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>FI</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic13.1501086004483">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm#se"/>
+		<instanceOf>
+			<topicRef href="#topic9.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Language SE</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+					<topicRef href="#topic11.1501086004483"/>
+				</scope>
+				<resourceData>Swedish</resourceData>
+			</variant>
+			<variant>
+				<scope>
+					<topicRef href="#topic6.1501086004482"/>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>Swedish</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic15.1501086004483">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#sort"/>
+		<instanceOf>
+			<topicRef href="#topic1.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Scope Sort</value>
+			<variant>
+				<scope>
+					<topicRef href="#topic10.1501086004482"/>
+				</scope>
+				<resourceData>Sort name</resourceData>
+			</variant>
+		</name>
+	</topic>
+	<topic id="topic17.1501086004483">
+		<subjectIdentifier href="http://www.wandora.org/core/edittime"/>
+		<name>
+			<value>Topic edit time</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic18.1501086004484">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass"/>
+		<instanceOf>
+			<topicRef href="#topic4.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Superclass</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic19.1501086004484">
+		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass"/>
+		<instanceOf>
+			<topicRef href="#topic3.1501086004482"/>
+		</instanceOf>
+		<name>
+			<value>Superclass-Subclass</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="topic256889.1501086034393">
+		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
+		<instanceOf>
+			<topicRef href="#topic0.1501086004481"/>
+		</instanceOf>
+		<name>
+			<value>Wandora class</value>
+		</name>
+		<occurrence>
+			<type>
+				<topicRef href="#topic5.1501086004482"/>
+			</type>
+			<scope>
+				<topicRef href="#topic6.1501086004482"/>
+			</scope>
+			<resourceData>1</resourceData>
+		</occurrence>
+	</topic>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic8.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic19.1501086004484"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic256889.1501086034393"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic2.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic7.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic16.1501086004483"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic16.1501086004483"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic18.1501086004484"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic3.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic16.1501086004483"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic16.1501086004483"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic16.1501086004483"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic16.1501086004483"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic16.1501086004483"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic8.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic7.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic7.1501086004482"/>
+			</type>
+			<topicRef href="#topic5.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic18.1501086004484"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic19.1501086004484"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic3.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic19.1501086004484"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic2.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic3.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic16.1501086004483"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic3.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic2.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic19.1501086004484"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic18.1501086004484"/>
+			</type>
+			<topicRef href="#topic0.1501086004481"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic8.1501086004482"/>
+			</type>
+			<topicRef href="#topic7.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic3.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic7.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic2.1501086004482"/>
+			</type>
+			<topicRef href="#topic2.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic7.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic7.1501086004482"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic4.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic16.1501086004483"/>
+		</role>
+	</association>
+	<association>
+		<type>
+			<topicRef href="#topic4.1501086004482"/>
+		</type>
+		<role>
+			<type>
+				<topicRef href="#topic4.1501086004482"/>
+			</type>
+			<topicRef href="#topic2.1501086004482"/>
+		</role>
+		<role>
+			<type>
+				<topicRef href="#topic3.1501086004482"/>
+			</type>
+			<topicRef href="#topic3.1501086004482"/>
+		</role>
+	</association>
+</topicMap>
