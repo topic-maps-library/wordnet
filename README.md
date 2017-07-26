@@ -3,7 +3,7 @@ This repository contains a project for Wandora application. The project is a col
 
 ## Details
 
-The topic map conversion of WordNet was originally published in WandoraWiki (http://wandora.org/wiki/Topic_map_conversion_of_WordNet). This version contains slightly modified version of the original project: The glossary is now included in the project as 12th layer and subject identifiers have been changed to comply Wandora's current core ontology.
+The topic map conversion of WordNet was originally published in WandoraWiki (http://wandora.org/wiki/Topic_map_conversion_of_WordNet). This repository contains slightly modified version of the original project: The glossary is now included in the project as 12th layer and subject identifiers have been changed to comply Wandora's current core ontology.
 
 The WordNet project includes 12 topic map layers, each containing part of the complete WordNet. Included topic map layers are
 * Base layer (layer0) contains Wandora's base ontology. 
