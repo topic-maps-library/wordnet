@@ -1,9 +1,11 @@
 # Topic Map WordNet
-This repository contains a project for Wandora application. The project is a collection of topic maps that represent WordNet, a large lexical database for English. WordNet has been developed at the Cognitive Science Laboratory of Princeton University and the topic map conversion is based on W3C's work on RDF version of WordNet 2.0.
+This repository contains a project for Wandora application. The project is a collection of topic maps that build up the WordNet, a large lexical database for English. The WordNet has been developed at the Cognitive Science Laboratory of Princeton University and the topic map conversion is based on W3C's work on RDF version of the WordNet 2.0.
 
 ## Details
 
-Wandora project includes 12 topic map layers, each containing part of the complete WordNet. Included topic map layers are
+The topic map conversion of WordNet was originally published in WandoraWiki (http://wandora.org/wiki/Topic_map_conversion_of_WordNet). This version contains slightly modified version of the original project: The glossary is now included in the project as 12th layer and subject identifiers have been changed to comply Wandora's current core ontology.
+
+The WordNet project includes 12 topic map layers, each containing part of the complete WordNet. Included topic map layers are
 * Base layer (layer0) contains Wandora's base ontology. 
 * Layer wordnet-basics (layer1) builds a simple instance-of hierarchy including all association types and classes, and attaches this hierarchy under Wandora's base ontology. Motivation of this layer is merely a navigational. It is easier to access WordNet when topics and associations are in Wandora's topic tree.
 * Wordnet-synset (layer2) contains all words in WordNet divided into separate synset categories. Each word topic has single subject identifier, base name, and English variant name. This layer does not contain associations between word topics.
@@ -25,3 +27,4 @@ You can clone the repository and use enclosed topic maps in any application supp
 ## See
 * https://en.wikipedia.org/wiki/Topic_Maps
 * http://www.wandora.org
+* http://wandora.org/wiki/Topic_map_conversion_of_WordNet#WordNet_license
