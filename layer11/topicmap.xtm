@@ -442,7 +442,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-catch-verb-25"/>
 	</topic>
 	<topic id="topic255537.1501086009109">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-types"/>
 	</topic>
 	<topic id="topic255538.1501086009109">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-accept-verb-1"/>
@@ -784,10 +784,10 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-extend-verb-13"/>
 	</topic>
 	<topic id="topic255651.1501086009110">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-roles"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-roles"/>
 	</topic>
 	<topic id="topic255652.1501086009110">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/verb-2"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/verb-2"/>
 		<instanceOf>
 			<topicRef href="#topic255651.1501086009110"/>
 		</instanceOf>
@@ -1318,8 +1318,8 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-purl-verb-5"/>
 	</topic>
 	<topic id="topic255827.1501086009110">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/type/sameVerbGroupAs"/>
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/schema/sameVerbGroupAs"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/type/sameVerbGroupAs"/>
 		<instanceOf>
 			<topicRef href="#topic255537.1501086009109"/>
 		</instanceOf>
@@ -1697,7 +1697,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-have_a_bun_in_the_oven-verb-1"/>
 	</topic>
 	<topic id="topic255951.1501086009111">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/verb-1"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/verb-1"/>
 		<instanceOf>
 			<topicRef href="#topic255651.1501086009110"/>
 		</instanceOf>
@@ -1970,7 +1970,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-see-verb-11"/>
 	</topic>
 	<topic id="topic256040.1501086009111">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 	</topic>
 	<topic id="topic256041.1501086009111">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-grow-verb-8"/>
@@ -2132,7 +2132,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-draw-verb-17"/>
 	</topic>
 	<topic id="topic256094.1501086009111">
-		<subjectIdentifier href="http://www.wandora.org/core/rdf-predicate"/>
+		<subjectIdentifier href="http://wandora.org/si/core/rdf-predicate"/>
 	</topic>
 	<topic id="topic256095.1501086009111">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-corrode-verb-1"/>

@@ -130,7 +130,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-dislike-verb-1"/>
 	</topic>
 	<topic id="topic254778.1501086009101">
-		<subjectIdentifier href="http://www.wandora.org/core/rdf-predicate"/>
+		<subjectIdentifier href="http://wandora.org/si/core/rdf-predicate"/>
 	</topic>
 	<topic id="topic254779.1501086009101">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-change_posture-verb-1"/>
@@ -298,10 +298,10 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-unravel-verb-1"/>
 	</topic>
 	<topic id="topic254834.1501086009102">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-roles"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-roles"/>
 	</topic>
 	<topic id="topic254835.1501086009102">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/consequence"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/consequence"/>
 		<instanceOf>
 			<topicRef href="#topic254834.1501086009102"/>
 		</instanceOf>
@@ -328,7 +328,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-cauterize-verb-1"/>
 	</topic>
 	<topic id="topic254842.1501086009102">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/action"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/action"/>
 		<instanceOf>
 			<topicRef href="#topic254834.1501086009102"/>
 		</instanceOf>
@@ -850,7 +850,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-rappel-verb-1"/>
 	</topic>
 	<topic id="topic255014.1501086009102">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 	</topic>
 	<topic id="topic255015.1501086009102">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-sew-verb-2"/>
@@ -1756,11 +1756,11 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-stand-verb-1"/>
 	</topic>
 	<topic id="topic255316.1501086009103">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-types"/>
 	</topic>
 	<topic id="topic255317.1501086009103">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/schema/entails"/>
-		<subjectIdentifier href="http://www.wandora.org/wordnet/type/entails"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/type/entails"/>
 		<instanceOf>
 			<topicRef href="#topic255316.1501086009103"/>
 		</instanceOf>

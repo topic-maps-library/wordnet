@@ -280,11 +280,11 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-holiness-noun-1"/>
 	</topic>
 	<topic id="topic253448.1501086009085">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-types"/>
 	</topic>
 	<topic id="topic253449.1501086009085">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/type/attribute"/>
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/schema/attribute"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/type/attribute"/>
 		<instanceOf>
 			<topicRef href="#topic253448.1501086009085"/>
 		</instanceOf>
@@ -338,7 +338,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-formality-noun-2"/>
 	</topic>
 	<topic id="topic253465.1501086009085">
-		<subjectIdentifier href="http://www.wandora.org/core/rdf-predicate"/>
+		<subjectIdentifier href="http://wandora.org/si/core/rdf-predicate"/>
 	</topic>
 	<topic id="topic253466.1501086009085">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-introspective-adjective-1"/>
@@ -743,10 +743,10 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-true-adjective-1"/>
 	</topic>
 	<topic id="topic253600.1501086009085">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-roles"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-roles"/>
 	</topic>
 	<topic id="topic253601.1501086009086">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/attribute"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/attribute"/>
 		<instanceOf>
 			<topicRef href="#topic253600.1501086009085"/>
 		</instanceOf>
@@ -1994,7 +1994,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-noncurrent-adjective-1"/>
 	</topic>
 	<topic id="topic254015.1501086009087">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 	</topic>
 	<topic id="topic254016.1501086009087">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-upper-class-adjective-1"/>
@@ -2003,7 +2003,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-gregariousness-noun-1"/>
 	</topic>
 	<topic id="topic254018.1501086009087">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/adjective"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/adjective"/>
 		<instanceOf>
 			<topicRef href="#topic253600.1501086009085"/>
 		</instanceOf>

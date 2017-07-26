@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
 	<topic id="topic0.1501086004481">
-		<subjectIdentifier href="http://www.wandora.org/core/schema-type"/>
+		<subjectIdentifier href="http://wandora.org/si/core/schema-type"/>
 		<instanceOf>
 			<topicRef href="#topic16.1501086004483"/>
 			<topicRef href="#topic2.1501086004482"/>
@@ -10,18 +10,9 @@
 		<name>
 			<value>Schema type</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic16.1501086004483">
-		<subjectIdentifier href="http://www.wandora.org/core/roleclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/roleclass"/>
 		<instanceOf>
 			<topicRef href="#topic3.1501086004482"/>
 			<topicRef href="#topic4.1501086004482"/>
@@ -30,18 +21,9 @@
 		<name>
 			<value>Role class</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic2.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/contenttype"/>
+		<subjectIdentifier href="http://wandora.org/si/core/contenttype"/>
 		<instanceOf>
 			<topicRef href="#topic2.1501086004482"/>
 			<topicRef href="#topic4.1501086004482"/>
@@ -50,18 +32,9 @@
 		<name>
 			<value>Content type</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic6.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/langindependent"/>
+		<subjectIdentifier href="http://wandora.org/si/core/langindependent"/>
 		<instanceOf>
 			<topicRef href="#topic9.1501086004482"/>
 		</instanceOf>
@@ -75,26 +48,8 @@
 			</variant>
 		</name>
 	</topic>
-	<topic id="topic5.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/hidelevel"/>
-		<instanceOf>
-			<topicRef href="#topic7.1501086004482"/>
-		</instanceOf>
-		<name>
-			<value>Hide level</value>
-		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
-	</topic>
 	<topic id="topic1.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/variant-name-version"/>
+		<subjectIdentifier href="http://wandora.org/si/core/variant-name-version"/>
 		<instanceOf>
 			<topicRef href="#topic0.1501086004481"/>
 		</instanceOf>
@@ -103,7 +58,7 @@
 		</name>
 	</topic>
 	<topic id="topic4.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/role"/>
+		<subjectIdentifier href="http://wandora.org/si/core/role"/>
 		<instanceOf>
 			<topicRef href="#topic2.1501086004482"/>
 			<topicRef href="#topic3.1501086004482"/>
@@ -113,18 +68,9 @@
 		<name>
 			<value>Role</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic3.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/associationtype"/>
+		<subjectIdentifier href="http://wandora.org/si/core/associationtype"/>
 		<instanceOf>
 			<topicRef href="#topic2.1501086004482"/>
 			<topicRef href="#topic3.1501086004482"/>
@@ -134,18 +80,9 @@
 		<name>
 			<value>Association type</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic7.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/occurrencetype"/>
+		<subjectIdentifier href="http://wandora.org/si/core/occurrencetype"/>
 		<instanceOf>
 			<topicRef href="#topic2.1501086004482"/>
 			<topicRef href="#topic3.1501086004482"/>
@@ -155,19 +92,10 @@
 		<name>
 			<value>Occurrence type</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic9.1501086004482">
-		<subjectIdentifier href="http://www.wandora.org/core/language"/>
 		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm"/>
+		<subjectIdentifier href="http://wandora.org/si/core/language"/>
 		<instanceOf>
 			<topicRef href="#topic0.1501086004481"/>
 		</instanceOf>
@@ -198,15 +126,6 @@
 		<name>
 			<value>Subclass</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic11.1501086004483">
 		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/language.xtm#en"/>
@@ -305,19 +224,10 @@
 		</name>
 	</topic>
 	<topic id="topic17.1501086004483">
-		<subjectIdentifier href="http://www.wandora.org/core/edittime"/>
+		<subjectIdentifier href="http://wandora.org/si/core/edittime"/>
 		<name>
 			<value>Topic edit time</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic18.1501086004484">
 		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass"/>
@@ -327,15 +237,6 @@
 		<name>
 			<value>Superclass</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<topic id="topic19.1501086004484">
 		<subjectIdentifier href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass"/>
@@ -345,18 +246,8 @@
 		<name>
 			<value>Superclass-Subclass</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
-	<topic id="topic256889.1501086034393">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+	<topic id="topic256890.1501087194452">
 		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 		<instanceOf>
 			<topicRef href="#topic0.1501086004481"/>
@@ -364,15 +255,6 @@
 		<name>
 			<value>Wandora class</value>
 		</name>
-		<occurrence>
-			<type>
-				<topicRef href="#topic5.1501086004482"/>
-			</type>
-			<scope>
-				<topicRef href="#topic6.1501086004482"/>
-			</scope>
-			<resourceData>1</resourceData>
-		</occurrence>
 	</topic>
 	<association>
 		<type>
@@ -405,7 +287,7 @@
 			<type>
 				<topicRef href="#topic18.1501086004484"/>
 			</type>
-			<topicRef href="#topic256889.1501086034393"/>
+			<topicRef href="#topic256890.1501087194452"/>
 		</role>
 	</association>
 	<association>
@@ -525,23 +407,6 @@
 				<topicRef href="#topic4.1501086004482"/>
 			</type>
 			<topicRef href="#topic8.1501086004482"/>
-		</role>
-	</association>
-	<association>
-		<type>
-			<topicRef href="#topic7.1501086004482"/>
-		</type>
-		<role>
-			<type>
-				<topicRef href="#topic2.1501086004482"/>
-			</type>
-			<topicRef href="#topic0.1501086004481"/>
-		</role>
-		<role>
-			<type>
-				<topicRef href="#topic7.1501086004482"/>
-			</type>
-			<topicRef href="#topic5.1501086004482"/>
 		</role>
 	</association>
 	<association>

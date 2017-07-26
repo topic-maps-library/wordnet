@@ -11,13 +11,13 @@
       <name>wordnet-basics</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer1>
    <layer2>
       <name>wordnet-synset</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer2>
    <layer3>
       <name>wordnet-similarity</name>
@@ -35,42 +35,42 @@
       <name>wordnet-member-meronym</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer5>
    <layer6>
       <name>wordnet-hyponym</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer6>
    <layer7>
       <name>wordnet-classified-by</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer7>
    <layer8>
       <name>wordnet-attribute</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer8>
    <layer9>
       <name>wordnet-causes</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer9>
    <layer10>
       <name>wordnet-entailment</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer10>
    <layer11>
       <name>wordnet-same-verb-group-as</name>
       <type>org.wandora.topicmap.memory.TopicMapImpl</type>
       <visiblity>true</visiblity>
-      <readonly>true</readonly>
+      <readonly>false</readonly>
    </layer11>
 </options>

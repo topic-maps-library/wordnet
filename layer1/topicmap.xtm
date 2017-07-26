@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <topicMap xmlns="http://www.topicmaps.org/xtm/" version="2.0">
 	<topic id="topic20.1501086004497">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 	</topic>
 	<topic id="topic21.1501086004497">
 		<subjectIdentifier href="http://wordnet.princeton.edu/wn/"/>
@@ -13,7 +13,7 @@
 		</name>
 	</topic>
 	<topic id="topic22.1501086004497">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-roles"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-roles"/>
 		<instanceOf>
 			<topicRef href="#topic21.1501086004497"/>
 		</instanceOf>
@@ -22,7 +22,7 @@
 		</name>
 	</topic>
 	<topic id="topic23.1501086004497">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-types"/>
 		<instanceOf>
 			<topicRef href="#topic21.1501086004497"/>
 		</instanceOf>
@@ -31,7 +31,7 @@
 		</name>
 	</topic>
 	<topic id="topic24.1501086004497">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/occurrence-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/occurrence-types"/>
 		<instanceOf>
 			<topicRef href="#topic21.1501086004497"/>
 		</instanceOf>
@@ -40,7 +40,7 @@
 		</name>
 	</topic>
 	<topic id="topic25.1501086004497">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/synsets"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/synsets"/>
 		<instanceOf>
 			<topicRef href="#topic21.1501086004497"/>
 		</instanceOf>

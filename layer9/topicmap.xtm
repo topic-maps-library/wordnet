@@ -337,7 +337,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-rush-verb-4"/>
 	</topic>
 	<topic id="topic254427.1501086009096">
-		<subjectIdentifier href="http://www.wandora.org/core/wandoraclass"/>
+		<subjectIdentifier href="http://wandora.org/si/core/wandora-class"/>
 	</topic>
 	<topic id="topic254428.1501086009096">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-embitter-verb-1"/>
@@ -556,7 +556,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-stampede-verb-4"/>
 	</topic>
 	<topic id="topic254500.1501086009096">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-roles"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-roles"/>
 	</topic>
 	<topic id="topic254501.1501086009096">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-discolor-verb-3"/>
@@ -793,7 +793,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-starve-verb-3"/>
 	</topic>
 	<topic id="topic254579.1501086009097">
-		<subjectIdentifier href="http://www.wandora.org/core/rdf-predicate"/>
+		<subjectIdentifier href="http://wandora.org/si/core/rdf-predicate"/>
 	</topic>
 	<topic id="topic254580.1501086009097">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-boil-verb-3"/>
@@ -850,7 +850,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bounce-verb-6"/>
 	</topic>
 	<topic id="topic254598.1501086009097">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/cause"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/cause"/>
 		<instanceOf>
 			<topicRef href="#topic254500.1501086009096"/>
 		</instanceOf>
@@ -946,7 +946,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-disjoin-verb-2"/>
 	</topic>
 	<topic id="topic254628.1501086009097">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/association-types"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/association-types"/>
 	</topic>
 	<topic id="topic254629.1501086009097">
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-compel-verb-1"/>
@@ -1045,8 +1045,8 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-sour-verb-1"/>
 	</topic>
 	<topic id="topic254661.1501086009097">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/type/causes"/>
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/schema/causes"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/type/causes"/>
 		<instanceOf>
 			<topicRef href="#topic254628.1501086009097"/>
 		</instanceOf>
@@ -1235,7 +1235,7 @@
 		<subjectIdentifier href="http://www.w3.org/2006/03/wn/wn20/instances/synset-grow_up-verb-1"/>
 	</topic>
 	<topic id="topic254722.1501086009097">
-		<subjectIdentifier href="http://www.wandora.org/wordnet/role/consequence"/>
+		<subjectIdentifier href="http://wandora.org/si/wordnet/role/consequence"/>
 		<instanceOf>
 			<topicRef href="#topic254500.1501086009096"/>
 		</instanceOf>
